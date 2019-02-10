@@ -1,0 +1,198 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  min-width: 1500px;
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #c0c5c9;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.button {
+  padding: 20px 40px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #43a9ff;
+  text-transform: uppercase;
+
+  border-radius: 50px;
+  box-shadow: 0 0 35px #dae5ef;
+}
+
+/* Шапка */
+
+.main-header h1 {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+.main-header span {
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.main-header .logo {
+  font-size: 48px;
+  line-height: 50px;
+  color: #43a9ff;
+  text-transform: uppercase;
+}
+
+.main-header .logo-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/* Преимущества */
+
+.benefits span {
+  margin-bottom: 20px;
+
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.benefits h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.benefits-list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.benefits-list li {
+  margin: 0;
+
+  text-align: center;
+}
+
+.benefits-list h3 {
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.benefits-list p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Текстовые блоки */
+
+.text-block h3, .feature-block h3 {
+  margin: 0;
+  margin-bottom: 35px;
+
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.text-block h3 {
+  color: #000000;
+}
+
+.feature-block h3 {
+  color: #43a9ff;
+}
+
+.text-block p, .feature-block p {
+  margin: 0;
+}
+
+/* Отзыв */
+
+.feedback h3 {
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 48px;
+  color: #fe3254;
+}
+
+.feedback p {
+  margin: 0;
+}
+
+.customer-name, .customer-bio {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.customer-name {
+  color: #000000;
+}
+
+/* Футер */
+
+.main-footer span {
+  margin-bottom: 20px;
+
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.main-footer h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  color: #000000;
+}
