@@ -54,7 +54,24 @@ img {
   box-shadow: 0 0 35px #dae5ef;
 }
 
+.container {
+  width: 1380px;
+  margin: 0 auto;
+}
+
 /* Шапка */
+
+.main-header {
+  background-image: url(../img/header.jpg);
+  background-position: 50% 200px;
+  background-repeat: no-repeat;
+}
+
+.main-header .container {
+  padding-bottom: 925px;
+
+  text-align: center;
+}
 
 .main-header h1 {
   margin: 0;
@@ -63,14 +80,15 @@ img {
   font-weight: 400;
   font-size: 48px;
   line-height: 50px;
-  text-align: center;
   color: #000000;
 }
 
 .main-header span {
+  display: block;
+  margin-bottom: 85px;
+
   font-size: 18px;
   line-height: 20px;
-  text-align: center;
 }
 
 .main-header .logo {
@@ -89,6 +107,12 @@ img {
 
 /* Преимущества */
 
+.benefits {
+  margin-bottom: 125px;
+
+  text-align: center;
+}
+
 .benefits span {
   margin-bottom: 20px;
 
@@ -98,6 +122,7 @@ img {
 
 .benefits h2 {
   margin: 0;
+  margin-bottom: 180px;
 
   font-weight: 400;
   font-size: 48px;
@@ -106,16 +131,35 @@ img {
 }
 
 .benefits-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
+  margin-bottom: 95px;
   padding: 0;
 
   list-style-type: none;
 }
 
 .benefits-list li {
+  position: relative;
+
   margin: 0;
 
   text-align: center;
+}
+
+.benefits-list li::before {
+  content: "";
+
+  position: absolute;
+  top: -80px;
+  left: 50%;
+
+  width: 48px;
+  height: 48px;
+  margin-left: -24px;
+
+  background-color: #000000;
 }
 
 .benefits-list h3 {
@@ -129,11 +173,50 @@ img {
 }
 
 .benefits-list p {
+  margin: 0;
+
   font-size: 14px;
   line-height: 24px;
 }
 
 /* Текстовые блоки */
+
+.text-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  background-color: #f7f8fb;
+}
+
+.text-blocks .image-container {
+  width: 50%;
+}
+
+.image-container img {
+  display: block;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.text-container {
+  width: 690px;
+}
+
+.text-block-right .text-container {
+  padding-left: 120px;
+  margin-right: auto;
+}
+
+.text-block-left .text-container {
+  padding-right: 120px;
+  margin-left: auto;
+}
 
 .text-block h3, .feature-block h3 {
   margin: 0;
@@ -156,6 +239,10 @@ img {
 }
 
 /* Отзыв */
+
+.feedback {
+  background-color: #f7f8fb;
+}
 
 .feedback h3 {
   margin: 0;
@@ -181,6 +268,19 @@ img {
 
 /* Футер */
 
+.main-footer {
+  background-image: url(../img/footer.jpg);
+  background-position: 50% 290px;
+  background-repeat: no-repeat;
+}
+
+.main-footer .container {
+  padding-top: 130px;
+  padding-bottom: 1170px;
+
+  text-align: center;
+}
+
 .main-footer span {
   margin-bottom: 20px;
 
@@ -190,6 +290,7 @@ img {
 
 .main-footer h2 {
   margin: 0;
+  margin-bottom: 90px;
 
   font-weight: 400;
   font-size: 48px;
